@@ -1,0 +1,11 @@
+<!-- app/views/questions/answer.html.erb -->
+    <h1>Stupid Coaching</h1>
+    <!-- You can execute ruby code inside <% %> -->
+    <%= @user_question %>
+    <p>-You</p>
+    <%= @coach %>
+    <p>-Your coach</p>
+    <!-- action specifies the URL that will be used when submitting the form -->
+    <!-- link to ask viewer -->
+    <!-- You can execute ruby code and add it to the HTML with <%= %> (~ puts) -->
+    <%= link_to "Ask a new question", "/ask" %>
